@@ -27,7 +27,7 @@ function createBoxes(amount) {
     const newDiv = document.createElement('div');
     newDiv.setAttribute('style', `background-color: ${hexColor}; width: ${divSize}px; height: ${divSize}px`)
     boxes.append(newDiv);
-    boxSize += 10;
+    divSize += 10;
   }
 
 }
